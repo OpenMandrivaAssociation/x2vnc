@@ -10,7 +10,6 @@ URL:		http://fredrik.hubbe.net/x2vnc.html
 Source0:	http://fredrik.hubbe.net/x2vnc/%{name}-%{version}.tar.bz2
 Group:		System/X11
 License:	BSD
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	X11-devel
 
 %description
