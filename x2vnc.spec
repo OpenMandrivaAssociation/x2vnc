@@ -45,3 +45,47 @@ mkdir -p %{buildroot}/%{_mandir}
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 1.7.2-6mdv2011.0
++ Revision: 615468
+- the mass rebuild of 2010.1 packages
+
+* Sun Feb 21 2010 Funda Wang <fwang@mandriva.org> 1.7.2-5mdv2010.1
++ Revision: 508919
+- fix str fmt
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 1.7.2-4mdv2009.0
++ Revision: 262222
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 1.7.2-3mdv2009.0
++ Revision: 256489
+- rebuild
+- fix no-buildroot-tag
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 1.7.2-1mdv2008.1
++ Revision: 129794
+- kill re-definition of %%buildroot on Pixel's request
+- import x2vnc
+
+
+* Wed Sep 06 2006 Buchan Milne <bgmilne@mandriva.org> 1.7.2-1mdv2007.0
+- New release 1.7.2
+
+* Tue May 23 2006 Lenny Cartier <lenny@mandriva.com> 1.7.1-1mdk
+- 1.7.1
+
+* Tue Sep 06 2005 Buchan Milne <bgmilne@linux-mandrake.com> 1.6.1-2mdk
+- annual rebuild
+- fix group/buildrequires, url, source url
+
+* Wed Sep 02 2004 Buchan Milne <bgmilne@linux-mandrake.com> 1.6.1-1mdk
+- 1.6.1
+
+* Mon Jun 07 2004 Buchan Milne <bgmilne@linux-mandrake.com> 1.6-1mdk
+- First Mandrake package
