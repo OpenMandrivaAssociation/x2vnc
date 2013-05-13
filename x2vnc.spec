@@ -1,6 +1,6 @@
 %define	name	x2vnc
 %define	version	1.7.2
-%define	release	%mkrel 6
+%define release 	7
 
 Summary:	Allows a mouse and a keyboard to control two displays
 Name:		%{name}
@@ -10,7 +10,6 @@ URL:		http://fredrik.hubbe.net/x2vnc.html
 Source0:	http://fredrik.hubbe.net/x2vnc/%{name}-%{version}.tar.bz2
 Patch0:		x2vnc-1.7.2-fix-str-fmt.patch
 Group:		System/X11
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	BSD
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xinerama)
