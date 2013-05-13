@@ -12,11 +12,11 @@ Patch0:		x2vnc-1.7.2-fix-str-fmt.patch
 Group:		System/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	BSD
-BuildRequires:	libx11-devel
-BuildRequires:	libxinerama-devel
-BuildRequires:	libxrandr-devel
-BuildRequires:	libxscrnsaver-devel
-BuildRequires:	libxxf86dga-devel
+BuildRequires:	pkgconfig(x11)
+BuildRequires:	pkgconfig(xinerama)
+BuildRequires:	pkgconfig(xrandr)
+BuildRequires:	pkgconfig(xscrnsaver)
+BuildRequires:	pkgconfig(xxf86dga)
 
 %description
 x2vnc allows the keyboard and mouse on one ("from") X display to control 
