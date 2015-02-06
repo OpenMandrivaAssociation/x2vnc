@@ -1,6 +1,6 @@
 %define	name	x2vnc
 %define	version	1.7.2
-%define release 	7
+%define release 	8
 
 Summary:	Allows a mouse and a keyboard to control two displays
 Name:		%{name}
