@@ -6,7 +6,7 @@ Summary:	Allows a mouse and a keyboard to control two displays
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-URL:		http://fredrik.hubbe.net/x2vnc.html
+URL:		https://fredrik.hubbe.net/x2vnc.html
 Source0:	http://fredrik.hubbe.net/x2vnc/%{name}-%{version}.tar.bz2
 Patch0:		x2vnc-1.7.2-fix-str-fmt.patch
 Group:		System/X11
