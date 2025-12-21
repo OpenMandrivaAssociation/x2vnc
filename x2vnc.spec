@@ -11,6 +11,11 @@ Source0:	http://fredrik.hubbe.net/x2vnc/%{name}-%{version}.tar.bz2
 Patch0:		x2vnc-1.7.2-fix-str-fmt.patch
 Group:		System/X11
 License:	BSD
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xinerama)
 BuildRequires:	pkgconfig(xrandr)
